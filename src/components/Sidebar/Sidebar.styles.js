@@ -79,7 +79,7 @@ export const SidebarHeader = styled(motion.div)`
   }
 
   span {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: ${(props) =>
       props.$color === 'dark'
