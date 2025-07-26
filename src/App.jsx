@@ -22,7 +22,7 @@ export default function App() {
           setColor(color === 'light' ? 'dark' : 'light');
         }}
       >
-        Switch the lights {color === 'dark' ? 'on' : 'off'}
+        Turn the lights {color === 'dark' ? 'on' : 'off'}
       </button>
     </div>
   );

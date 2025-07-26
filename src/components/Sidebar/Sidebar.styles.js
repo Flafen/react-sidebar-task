@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 export const SidebarWrapper = styled(motion.div)`
-  //   width: ${(props) => (props.$isOpened ? '180px' : '48px')};
   background-color: ${(props) =>
     props.$color === 'light'
       ? 'var(--color-sidebar-background-light-default)'
       : 'var(--color-sidebar-background-dark-default)'};
   height: 100vh;
+  min-width: ${(props) => (props.$isOpened ? '250px' : '86px')};
   @supports (height: 100dvh) {
     height: 100dvh;
   }
